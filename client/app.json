@@ -1,7 +1,10 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/mainview/mainview",
+    "pages/qrcode/qrcode",
+    "pages/consumerpay/consumerpay"
   ],
   "window":{
     "backgroundTextStyle":"light",

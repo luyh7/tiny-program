@@ -1,0 +1,19 @@
+<!--pages/mainview/mainview.wxml-->
+<!-- <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image> -->
+
+<view class="table">
+  <block wx:for="{{listData}}" wx:for-index="i" wx:for-item="textData">
+    <view class="tr">
+      <view wx:for="{{textData.tr}}"class="td" hover-class="td-hover" wx:for-index="j" bindtap='bindTap{{i * 3 + j}}'>
+        <view class="img">
+          <image
+            class="userinfo-avatar"
+            src="{{listIcon[i * 3 + j]}}"
+            background-size="cover">
+          </image>
+        </view>
+        <text>{{item}}</text>
+      </view>
+    </view>
+  </block>
+</view>

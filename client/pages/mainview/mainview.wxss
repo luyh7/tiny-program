@@ -1,0 +1,32 @@
+/* pages/mainview/mainview.wxss */
+.table {
+  margin-top: 40rpx;
+  border: 0px solid darkgray;
+}
+.tr {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 5rem;
+  align-items: center;
+}
+.td {
+  width: 40%;
+  justify-content: center;
+  text-align: center;
+  font-size: 11pt;
+  padding: 20rpx;
+}
+.td-hover {
+  background-color: #b2b2b2;
+}
+.img {
+    /* margin: 20rpx; */
+    display: block; 
+    justify-content: center;
+}
+.userinfo-avatar {
+    width: 100rpx;
+    height: 100rpx;
+    border-radius: 50%;
+}

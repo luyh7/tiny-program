@@ -15,6 +15,11 @@ Page({
       url: '../logs/logs'
     })
   },
+  linkStart: function() {
+    wx.navigateTo({
+      url: '../mainview/mainview',
+    })
+  },
   onLoad: function () {
     if (app.globalData.userInfo) {
       this.setData({

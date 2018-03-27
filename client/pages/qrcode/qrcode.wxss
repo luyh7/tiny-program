@@ -1,0 +1,8 @@
+/* pages/qrcode/qrcode.wxss */
+.container{
+  margin-top: 5rem;
+}
+.qrCode{
+  width: 200px; 
+  height: 200px;
+}
