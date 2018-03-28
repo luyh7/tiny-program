@@ -1,0 +1,33 @@
+/* pages/userlogin/userlogin.wxss */
+page{
+
+background-color:rgba(178,178,178,0.3);
+
+height:100%;
+
+}
+
+.content{
+  margin-bottom: 60rpx;
+  border-radius: 30rpx;
+  background-color: rgba(255,255,255,0.4); 
+  color: #888;
+}
+.user-info{
+  padding: 30rpx 50rpx;
+  display: flex;
+}
+.content-title{
+  /* margin: 0 30rpx; */
+  width: 150rpx;
+}
+.content-placeholder{
+  color: #b2b2b2;
+}
+input{
+  padding-left: 20rpx;
+}
+.footer{
+  font-size: 11pt;
+  color: #888;
+}

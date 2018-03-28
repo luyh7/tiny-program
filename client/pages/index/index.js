@@ -17,7 +17,7 @@ Page({
   },
   linkStart: function() {
     wx.navigateTo({
-      url: '../mainview/mainview',
+      url: '../userlogin/userlogin',
     })
   },
   onLoad: function () {

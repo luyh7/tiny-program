@@ -1,0 +1,28 @@
+<!--pages/userlogin/userlogin.wxml-->
+<view class="container">
+  
+  <view class="user-login">
+    <form bindsubmit="userLogin">
+      <view class="content">
+        <view class="user-info">
+          <view class="content-title">用户名</view>
+          <input name="username" placeholder="please input here" placeholder-class="content-placeholder"/>
+        </view>
+        <view class="user-info">
+          <view class="content-title">密码</view>
+          <input name="password" placeholder="please input here" placeholder-class="content-placeholder" password="true"/>
+        </view>
+      </view>
+      <view>
+        <button class="content" formType="submit">登录</button>
+      </view>
+
+    </form>
+  </view>
+  <view class="footer">
+    <text bindtap='register'>用户注册</text> | <text bindtap='forgot'>忘记密码</text>
+  </view>
+  <!--空白填充  -->
+  <view style="margin:auto">
+  </view>
+</view>

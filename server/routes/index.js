@@ -35,4 +35,10 @@ router.post('/message', controllers.message.post)
 //GET  用来响应用户扫码支付
 router.get('/consumerpay', controllers.consumerpay.get)
 
+//GET  用来响应商户登录
+// router.post('/userlogin', controllers.userlogin.post)
+router.post('userlogin',function (ctx, next) {
+	ctx.body = 'Hello Koa2.0!';
+})
+
 module.exports = router

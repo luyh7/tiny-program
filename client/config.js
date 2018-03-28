@@ -24,7 +24,10 @@ var config = {
         uploadUrl: `${host}/weapp/upload`,
 
         //用户扫码支付接口
-        consumerPayUrl: `${host}/weapp/consumerpay`
+        consumerPayUrl: `${host}/weapp/consumerpay`,
+
+        //商户登录接口
+        userLoginUrl: `${host}/weapp/userlogin`
     }
 };
 
