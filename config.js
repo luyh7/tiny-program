@@ -3,7 +3,7 @@
  */
 
 // 此处主机域名修改成腾讯云解决方案分配的域名
-var host = 'https://lhqj6s6v.qcloud.la';
+var host = 'http://111.230.51.46:2333';
 
 var config = {
 
@@ -24,10 +24,10 @@ var config = {
         uploadUrl: `${host}/weapp/upload`,
 
         //用户扫码支付接口
-        consumerPayUrl: `${host}/weapp/consumerpay`,
+        consumerPayUrl: `${host}/consumerPay.html`,
 
         //商户登录接口
-        userLoginUrl: `${host}/weapp/userlogin`
+        userLoginUrl: `${host}/userlogin`
     }
 };
 

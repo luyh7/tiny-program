@@ -21,13 +21,24 @@ Page({
     }
     console.log(config.service.userLoginUrl);
     wx.request({
-      url: config.service.userLoginUrl,
+      url: config.service.userLoginUrl ,
       data: {
         "username": username, 
         "password": password},
       method: "POST",
       success: res => {
-        console.log(res.data);
+        console.log(res);
+        if(res.data.code == 1){
+          wx.navigateTo({
+            url: '/pages/mainview/mainview',
+          })
+        }
+        else{
+          wx.showToast({
+            title: '错了，沙雕',
+            icon: 'none'
+          })
+        }
       }
     })
   },

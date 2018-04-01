@@ -1,20 +1,16 @@
 {
 	"description": "项目配置文件。",
-  "client": "./client",
-  "svr": "./server",
-  "miniprogramRoot": "./client",
-  "qcloudRoot": "./server",
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
 		"newFeature": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "1.9.93",
+	"libVersion": "1.9.94",
 	"appid": "wx9d5c367ebf3e3436",
-	"projectname": "tiny-program",
+	"projectname": "tiny-client",
 	"isGameTourist": false,
 	"condition": {
 		"search": {
